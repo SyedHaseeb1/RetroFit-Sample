@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/moviesNavigation">
+    <fragment
+        android:id="@+id/moviesNavigation"
+        android:name="com.hsb.syedhaseebtaks_janbark.ui.fargs.movies.MoviesFragment"
+        android:label="All Movies"
+        tools:layout="@layout/fragment_movies">
+        <action
+            android:id="@+id/action_moviesNavigation_to_detailsNavigation"
+            app:destination="@id/detailsNavigation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsNavigation"
+        android:name="com.hsb.syedhaseebtaks_janbark.ui.fargs.details.DetailsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="year"
+            app:argType="string" />
+        <argument
+            android:name="type"
+            app:argType="string" />
+        <argument
+            android:name="image"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

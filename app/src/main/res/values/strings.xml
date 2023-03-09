@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SyedHaseebTask_JanBark</string>
+    <string name="this_is_title">This is Title</string>
+    <string name="later">later</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="rename">Rename Here</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit Here</string>
+    <string name="this_is_type">This is Type</string>
+    <string name="this_is_year">This is Year</string>
+    <string name="year">Year</string>
+    <string name="image">image</string>
+    <string name="type">Type</string>
+</resources>
